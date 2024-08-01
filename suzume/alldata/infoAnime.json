@@ -1,0 +1,14 @@
+{
+    "title": "Suzume",
+    "studio": "CoMix Wave Films",
+    "genre": "Romance",
+    "rating": "8.4",
+    "poster": "../poster/SUZUME.jpg",
+    "episodes": 1,
+    "type": "Movie",
+    "description": "Suzume embarks on a journey to close mysterious doors that are causing natural disasters across Japan.",
+    "watchLink": "https://example.com/watch/suzume",
+    "episodeList": [
+        { "title": "Full Movie", "link": "https://example.com/suzume" }
+    ]
+}

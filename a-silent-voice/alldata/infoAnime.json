@@ -1,0 +1,14 @@
+{
+    "title": "A Silent Voice",
+    "studio": "Kyoto Animation",
+    "genre": "Romance",
+    "rating": "8.7",
+    "poster": "../poster/SILENT.jpg",
+    "episodes": 1,
+    "type": "Movie",
+    "description": "A former bully befriends the deaf girl he tormented in grade school and seeks redemption.",
+    "watchLink": "https://example.com/watch/a-silent-voice",
+    "episodeList": [
+        { "title": "Full Movie", "link": "https://example.com/a-silent-voice" }
+    ]
+}

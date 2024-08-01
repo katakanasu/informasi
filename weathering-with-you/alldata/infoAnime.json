@@ -1,0 +1,14 @@
+{
+    "title": "Weathering with You",
+    "studio": "CoMix Wave Films",
+    "genre": "Romance",
+    "rating": "8.5",
+    "poster": "../poster/WEATHERING.jpg",
+    "episodes": 1,
+    "type": "Movie",
+    "description": "A boy runs away to Tokyo and befriends a girl who appears to be able to manipulate the weather.",
+    "watchLink": "https://example.com/watch/weathering-with-you",
+    "episodeList": [
+        { "title": "Full Movie", "link": "https://example.com/weathering-with-you" }
+    ]
+}

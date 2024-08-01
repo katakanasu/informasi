@@ -1,0 +1,14 @@
+{
+    "title": "Tamako Love Story",
+    "studio": "Kyoto Animation",
+    "genre": "Romance",
+    "rating": "8.2",
+    "poster": "../poster/TAMAKO.jpg",
+    "episodes": 1,
+    "type": "Movie",
+    "description": "Tamako and Mochizou, childhood friends, navigate their feelings and future as high school graduation approaches.",
+    "watchLink": "https://example.com/watch/tamako-love-story",
+    "episodeList": [
+        { "title": "Full Movie", "link": "https://example.com/tamako-love-story" }
+    ]
+}

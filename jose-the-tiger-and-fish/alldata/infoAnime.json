@@ -1,0 +1,14 @@
+{
+    "title": "Josee, the Tiger and the Fish",
+    "studio": "Bones",
+    "genre": "Romance",
+    "rating": "8.0",
+    "poster": "../poster/JOSEE.jpg",
+    "episodes": 1,
+    "type": "Movie",
+    "description": "A young man takes care of a disabled girl, and they both discover new possibilities in life.",
+    "watchLink": "https://example.com/watch/josee-the-tiger-and-the-fish",
+    "episodeList": [
+        { "title": "Full Movie", "link": "https://example.com/josee-the-tiger-and-the-fish" }
+    ]
+}

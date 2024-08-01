@@ -1,0 +1,212 @@
+/* Default light theme styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+header {
+    background-color: #444;
+    color: white;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+header #logo {
+    width: 80px;
+    height: auto;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+#toggleTheme {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 1.5em;
+}
+
+main {
+    padding: 20px;
+}
+
+.anime-detail {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.anime-content {
+    display: flex;
+    gap: 20px;
+}
+
+.anime-poster {
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.anime-info {
+    flex: 1;
+}
+
+.anime-info h2 {
+    margin-top: 0;
+    font-size: 2em;
+}
+
+.anime-info p {
+    margin: 10px 0;
+}
+
+.anime-info .icon {
+    color: #f39c12;
+}
+
+.watch-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #f39c12;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+.watch-button:hover {
+    background-color: #e67e22;
+}
+
+/* Episode List Styles */
+.episode-list-container {
+    margin-top: 20px;
+    text-align: center; /* Center the episode title */
+}
+
+.episode-list-container h3 {
+    margin-bottom: 15px;
+    font-size: 1.5em;
+    color: #333;
+}
+
+/* Centering the episode list on desktop */
+@media (min-width: 768px) {
+    .episode-list-container h3 {
+        margin: 0 auto;
+        max-width: 800px; /* Adjust this value as needed */
+    }
+}
+
+.episode-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 auto; /* Center the episode list */
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 15px;
+    max-height: calc(3 * (200px + 15px)); /* 3 rows of items plus gaps */
+    overflow: hidden; /* Hide overflowing items */
+    overflow-y: auto; /* Enable vertical scrolling if needed */
+}
+
+.episode-item {
+    padding: 15px;
+    background-color: #f39c12; /* Orange background */
+    border: 1px solid #e67e22; /* Slightly darker orange border */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+}
+
+.episode-item:hover {
+    background-color: #e67e22; /* Darker orange on hover */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.episode-item a {
+    text-decoration: none;
+    color: #fff; /* White text color */
+    font-size: 1.2em; /* Larger font size for episode title */
+}
+
+.episode-item a:hover {
+    color: #f4f4f4; /* Slightly lighter color on hover for better readability */
+}
+
+/* Dark theme styles */
+body.dark-mode {
+    background-color: #333;
+    color: #ccc;
+}
+
+body.dark-mode header {
+    background-color: #222;
+}
+
+body.dark-mode .anime-detail {
+    background-color: #444;
+    color: #ccc;
+}
+
+body.dark-mode .anime-info .icon {
+    color: #f39c12;
+}
+
+body.dark-mode .watch-button {
+    background-color: #e67e22;
+}
+
+body.dark-mode .watch-button:hover {
+    background-color: #d35400;
+}
+
+body.dark-mode .episode-list-container h3 {
+    color: #ccc; /* Adjust the color to match the dark mode */
+}
+
+body.dark-mode .episode-item {
+    background-color: #e67e22; /* Darker orange for dark mode */
+    border-color: #d35400; /* Even darker orange for dark mode border */
+    color: #fff; /* White text color for readability */
+}
+
+body.dark-mode .episode-item a {
+    color: #fff; /* Ensure episode title is readable in dark mode */
+}
+
+body.dark-mode .episode-item a:hover {
+    color: #f4f4f4; /* Slightly lighter color on hover for better readability */
+}
+
+/* Remove underline from all links */
+a {
+    text-decoration: none;
+}
+
+/* Centering the episode list on desktop */
+@media (min-width: 768px) {
+    .episode-list {
+        max-width: 800px; /* Adjust this value as needed */
+    }
+}

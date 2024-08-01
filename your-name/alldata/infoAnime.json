@@ -1,0 +1,14 @@
+{
+    "title": "Your Name",
+    "studio": "CoMix Wave Films",
+    "genre": "Romance",
+    "rating": "8.9",
+    "poster": "../poster/YOURNAME.jpg",
+    "episodes": 1,
+    "type": "Movie",
+    "description": "Two teenagers share a profound, magical connection upon discovering they are swapping bodies.",
+    "watchLink": "https://example.com/watch/your-name",
+    "episodeList": [
+        { "title": "Full Movie", "link": "https://example.com/your-name" }
+    ]
+}
